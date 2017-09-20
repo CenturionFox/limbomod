@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "limbomod",
+    "name": "Limbo",
+    "description": "Adds a new cave dimension, accessible from anywhere, and with new mobs and items",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://www.github.com/CenturionFox/limbomod",
+    "updateUrl": "",
+    "authorList": [
+      "CenturionFox"
+    ],
+    "credits": "Copyright (C) 2017 Bridger Maskrey (CenturionFox).  Licensed under MIT.",
+    "logoFile": "", //TODO: Add logo image
+    "screenshots": [],
+    "dependencies": []
+  }
+]

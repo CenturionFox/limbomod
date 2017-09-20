@@ -11,6 +11,13 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the nessasary things for Forge to be setup.
 
+sourceSets.api.java {
+    srcDirs 'api/'
+}
+sourceSets.main.java {
+    srcDirs 'api/'
+}
+
 def versioningFile = file('versioning.properties')
 def mcversion = '0.0'
 def majormod = '0'
@@ -124,6 +131,7 @@ processResources {
 	// copy LICENSE
     from('/') {
         include 'LICENSE'
+        include 'CREDITS'
 		include 'README.md'
     }
 }
